@@ -43,6 +43,12 @@
             }
         }
 
+        protected void ShowMessage(string message)
+        {
+            Console.WriteLine(message);
+            Console.ReadKey();
+        }
+
         public virtual void Initialize()
         {
             State = SceneState.Initialized;

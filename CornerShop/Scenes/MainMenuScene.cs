@@ -40,7 +40,7 @@ namespace CornerShop.Text.Scenes
                 Id = Guid.NewGuid(),
             };
 
-            _resourceManager.Set("game-data", game);
+            _resourceManager.Set(KnownResources.CurrentGameData, game);
 
             _sceneManager.PushScene(_gameHomeMenuSceneFactory());
         }

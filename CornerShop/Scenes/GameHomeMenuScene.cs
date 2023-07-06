@@ -29,6 +29,7 @@ namespace CornerShop.Text.Scenes
         private void OnSave()
         {
             _gameDataService.SaveGame(_gameData);
+            ShowMessage("Save successful!");
         }
 
         private readonly IResourceManager _resourceManager;

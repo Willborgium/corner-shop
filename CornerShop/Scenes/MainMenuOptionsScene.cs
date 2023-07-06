@@ -8,10 +8,5 @@ namespace CornerShop.Text.Scenes
             : base("Options", SceneManager)
         {
         }
-
-        public override void Update()
-        {
-            throw new Exception("Testing!");
-        }
     }
 }
